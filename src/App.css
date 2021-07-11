@@ -5,11 +5,19 @@ body {
   background-position: center center;
 }
 
+h1 {
+  text-align: center;
+  color: #f5e5c9;
+}
+
 a {
-  color: #c490e4;
+  color: black;
 }
 
 .signature {
   text-align: center;
   margin: 30px 0;
+  color: #9c9078;
+  font-size: 30px;
+  font-weight: bold;
 }
