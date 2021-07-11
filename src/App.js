@@ -11,9 +11,54 @@ export default function App() {
         <main>
           <Dictionary defaultKeyword="sword" />
         </main>
-        <footer className="signature">
-          <small>Coded by Michelle Terrazas</small>
-        </footer>
+        <section>
+          <footer className="signature">
+            <small>
+              Coded by{" "}
+              <a
+                href="https://www.linkedin.com/in/michelle-terrazas/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Michelle Terrazas
+              </a>{" "}
+              with{" "}
+              <a
+                href="https://www.shecodes.io/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                SheCodes
+              </a>
+              ;
+              <a
+                href="https://github.com/michelleann815/dictionary-project"
+                target="_blank"
+                rel="noreferrer"
+              >
+                {" "}
+                Check out my GitHub here!{" "}
+              </a>
+              <br />
+              Background Image by{" "}
+              <a
+                href="https://unsplash.com/@adrienolichon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Adrien Olichon
+              </a>{" "}
+              on{" "}
+              <a
+                href="https://unsplash.com/s/photos/dark-academia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Unsplash
+              </a>
+            </small>
+          </footer>
+        </section>
       </div>
     </div>
   );
