@@ -1,5 +1,8 @@
 body {
-  background: #f6c6ea;
+  background-image: url("./images/darkacademia.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 a {
