@@ -1,3 +1,11 @@
+body {
+  background: #f6c6ea;
+}
+
+a {
+  color: #c490e4;
+}
+
 .signature {
   text-align: center;
   margin: 30px 0;
